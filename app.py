@@ -19,11 +19,11 @@ def predict():
     # output = round(prediction[0], 2)
     if prediction==0:
         return render_template('index.html',
-                               prediction_text='Low chances of patient having diabetes'.format(prediction),
+                               prediction_text='Patient diabetique'.format(prediction),
                                )
     else:
         return render_template('index.html',
-                               prediction_text='High chances of patient having diabetes'.format(prediction),
+                               prediction_text='Patient non diabetique'.format(prediction),
                               )
 
 
