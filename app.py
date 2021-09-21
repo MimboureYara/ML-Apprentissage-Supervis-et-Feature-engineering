@@ -9,8 +9,8 @@ model = pickle.load(open('model.pkl', 'rb'))
 def home():
     return render_template('index.html')
 
-@app.route('/predict',methods=['POST','GET'])
-def predict():
+@app.route('/prédire',methods=['POST','GET'])
+def prédire():
 
     int_features = [float(x) for x in request.form.values()]
     final_features = [np.array(int_features)]
