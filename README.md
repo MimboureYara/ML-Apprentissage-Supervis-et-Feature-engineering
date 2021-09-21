@@ -36,4 +36,8 @@ Les informations ci_dessous sont utilisées pour predire la statut de diabète d
 
 ### 2.4. Deploiement de l'application sur Heroku
 
+URL de l'API : https://diabete-prediction-women-api.herokuapp.com/
+
 ### 2.5. Test final
+
+URL de l'API : https://diabete-prediction-women-api.herokuapp.com/
