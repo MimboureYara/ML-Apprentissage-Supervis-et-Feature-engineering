@@ -6,7 +6,7 @@
 #### 1.2. Arbre de decision
 #### 1.3. Forêt aléatoire
 
-# Prediction statut diabète
+# Modèle predictif de cas de diabète
 
 Les informations ci_dessous sont utilisées pour predire la statut de diabète des patientes en âge de procréer
 
@@ -14,19 +14,19 @@ Les informations ci_dessous sont utilisées pour predire la statut de diabète d
 
       Glucose, en taux de glucose dans le sang lors du test.
 
-      Tension artérielle qui correspond la tension artérielle prise pendant le diastole.
+      Tension artérielle qui correspond la tension artérielle prise pendant la diastole.
 
-      Perimetre bracial qui correspond à l'épaisseur du pli cutané du triceps.
+      Perimetre bracial mesuré en millimètre qui correspond à l'épaisseur du pli cutané du triceps.
 
       Insuline qui décrit la quantité d'insuline.
 
-      Indice de masse corporelle.
+      Indice de masse corporelle qui est rapport entre le poids et la taille.
 
-      Fonction diabete qui correspond aux antécédents familiaux de la personne.
+      Fonction diabete qui correspond aux antécédents familiaux de la personne (en 1/0).
 
-      Age décrit l'âge de la personne.
+      Age de la personne.
 
-      resultat qui est la prediction du statut actuel de diabète ou non de la patiente.
+      Eesultat qui est la prediction du statut actuel de diabète.
 
 ### 2.1. Création repository sur GitHub
  
